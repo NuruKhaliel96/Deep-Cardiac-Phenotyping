@@ -4,7 +4,7 @@
 **Tech Stack:** Python (PyTorch, MONAI), R (ggplot2, cluster)  
 
 ## Executive Summary
-This repository contains an end-to-end clinical bioinformatics pipeline designed to characterize disease heterogeneity in Hypertrophic Cardiomyopathy (HCM). The architecture bridges computer vision and statistical taxonomy by automatically segmenting 3D cardiac MRI scans and clustering the resulting physical metrics into distinct morphological phenogroups. 
+This repository contains an end-to-end clinical bioinformatics pipeline designed to characterise disease heterogeneity in Hypertrophic Cardiomyopathy (HCM). Utilising open-source patient data from the ACDC (Automated Cardiac Diagnosis Challenge) database, the architecture bridges computer vision and statistical taxonomy by automatically segmenting 3D cardiac MRI scans and clustering the resulting physical metrics into distinct morphological phenogroups.  
 
 To ensure clinical diagnostic safety, the model was subjected to a robustness evaluation, testing its resilience against simulated scanner degradation and patient motion artifacts.
 
