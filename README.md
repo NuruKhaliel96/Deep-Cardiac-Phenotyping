@@ -17,7 +17,7 @@ To validate that the U-Net learned true spatial anatomy rather than over-fitting
 ### Segmentation Results
 *Left: Original MRI slice. Center: Ground Truth Annotations. Right: 3D U-Net Prediction.*
 
-![U-Net Validation Mask](validation_mask.jpg)
+![U-Net Validation Mask](validation_mask.png)
 
 ## 2. Morphological Feature Extraction & Taxonomy
 The predicted 3D voxel masks were computationally translated into physical volumetric measurements. A specific proxy **Hypertrophy Index** (myocardial wall thickness relative to left ventricular chamber size) was engineered to mathematically represent the primary indicator of HCM.
